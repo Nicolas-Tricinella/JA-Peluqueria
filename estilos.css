@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav{
+    padding: 25px;
+}
+
+.banner{
+    background-image: url("./img/fondo.jpg");
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+
+.titulo{
+    color: hwb(0 0% 0%);
+    font-family: 'Lucida Sanz', sans-serif;
+}
+
+.menuSuperior{
+    list-style-type: none;
+    text-align: center;
+}
+
+.menuSuperior li{
+    display: inline-block;  
+}
+.menuSuperior a{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;  
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contenido{
+    line-height: 1.6;
+    margin: 15px;
+}
+
+footer {
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.footer {
+    margin: auto;
+    width: 400px;
+    text-align:center;
+    color:black;
+}
