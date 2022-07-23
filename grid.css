@@ -1,0 +1,234 @@
+#grilla1 {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "cosme cosme cosme"
+        "cortepeinado color manospies"
+        "pileta bellezaspa depilacion";
+    grid-template-rows: 100px;
+    grid-template-columns: 20% auto 15%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-bottom: 70px;
+}
+
+#grillaContacto {
+    display: grid;
+    grid-template-areas:
+        "nav nav nav"
+        "cosme cosme cosme"
+        "contacto ubicacion ubicacion"
+        "footer footer footer";
+    grid-template-rows: 100px;
+    grid-template-columns: 40% auto 40%;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    margin-bottom: 70px;
+}
+
+#grillaProductos {
+    display: flex;
+    grid-column-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#grillaColor {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#grillaGaleria {
+    margin-bottom: 70px;
+}
+
+.border {
+    border: 1px solid black;
+    border-radius: 5%;
+}
+
+header {
+    grid-area: cosme;
+}
+
+section#cortepeinado {
+    grid-area: cortepeinado;
+}
+
+section#color {
+    grid-area: color;
+}
+
+section#manospies {
+    grid-area: manospies;
+}
+
+section#depilacion {
+    grid-area: depilacion;
+}
+
+section#pileta {
+    grid-area: pileta;
+}
+
+section#bellezaspa {
+    grid-area: bellezaspa;
+}
+
+section#ubicacion {
+    grid-area: ubicacion;
+}
+
+nav {
+    grid-area: nav;
+}
+
+section#contacto {
+    grid-area: contacto;
+}
+
+
+.header {
+    /* background-image: url("./img/fondo.jpg"); */
+    /* background-color: aqua; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+}
+
+/* ---Navbar */
+.header__navbar ul {
+    padding: 2rem;
+    list-style-type: none;
+    text-align: center;
+}
+
+.header__navbar li {
+    display: inline-block;
+}
+
+.header__navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+@media(min-width: 768px) {
+    #grilla1 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .border {
+        border: 1px solid black;
+    }
+
+    @media screen and (min-width:1024px) {
+        #grilla1 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .border {
+            border: 1px solid black;
+        }
+
+    }
+}
+
+
+
+
+
+
+/*transitions*/
+#cortepeinado:hover {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(0.97);
+}
+
+#color:hover {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(0.97);
+}
+
+#manospies:hover {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(0.97);
+}
+
+#depilacion:hover {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(0.97);
+}
+
+#pileta:hover {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(0.97);
+}
+
+#bellezaspa:hover {
+    transition-property: transform;
+    transition-duration: 0.2s;
+    transform: scale(0.97);
+}
+
+#Koleston:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+#Nutrise:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+#Secadores:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+#Planchitas:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+#Cortapelo:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+#Sedal:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+#Bucleras:hover {
+    transition-property: transform;
+    transition-duration: 2s;
+    transform: rotate(360deg);
+}
+
+a {
+    font-size: 2em;
+    transition: transform .3s ease-out;
+    display: inline-block;
+}
+
+a:hover {
+    transform: translate(0, -5px);
+}

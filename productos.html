@@ -4,52 +4,106 @@
 <head>
     <title>Productos</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="grid.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
-
-    <nav class="banner">
-        <header class="menuSuperior">
-            <ul>
-                <li><a href="./index.html">Servicios</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./quienessomos.html">Quienes somos</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        
-        </header>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./quienessomos.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
 
-    <h1 class="titulo">Productos</h1>
-    <div class="contenido">
-        <h3>Corte y peinado</h3>
+    <header class="border">
+        <h1 class="titulo">Productos</h1>
+    </header>
+    <h3>Corte y peinado</h3>
+    <div id="grillaProductos">
+        <div style="margin: 10px;">
+            <p>Secadores</p>
+            <img id="Secadores" src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png"
+                width="100px" height="100px" alt="">
+        </div>
+        <div style="margin: 10px;">
+            <p>Planchitas</p>
+            <img id="Planchitas" src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png"
+                width="100px" height="100px" alt="">
+        </div>
+        <div style="margin: 10px;">
+            <p>Maquinas corta pelo</p>
+            <img id="Cortapelo" src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png"
+                width="100px" height="100px" alt="">
+        </div>
+        <div style="margin: 10px;">
+            <p>Sedal</p>
+            <img id="Sedal" src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png"
+                width="100px" height="100px" alt="">
+        </div>
+        <div style="margin: 10px;">
+            <p>Bucleras</p>
+            <img id="Bucleras" src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png"
+                width="100px" height="100px" alt="">
+        </div>
 
-        <p>Secadores</p>
-        <img src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png" width="100px" height="100px" alt="">
-        <p>Planchitas</p>
-        <img src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png" width="100px" height="100px" alt="">
-        <p>Maquinas corta pelo</p>
-        <img src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png" width="100px" height="100px" alt="">
-        <p>Sedal</p>
-        <img src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png" width="100px" height="100px" alt="">
-        <p>Bucleras</p>
-        <img src="https://images.vexels.com/media/users/3/234842/isolated/lists/8984c5043d85ea253a574eea6f96d609-elementos-de-peluqueria-11.png" width="100px" height="100px" alt="">
 
-        <h3>Color</h3>
-        
-        <p>Koleston</p>
-        <img src="https://images.vexels.com/media/users/3/234850/isolated/lists/2d4d8c7913689ea8d3ede7781a14ee5a-elementos-de-peluqueria-19.png" width="100px" height="100px" alt="">
-        <p>Nutrise</p>
-        <img src="https://images.vexels.com/media/users/3/234850/isolated/lists/2d4d8c7913689ea8d3ede7781a14ee5a-elementos-de-peluqueria-19.png" width="100px" height="100px" alt="">
+
     </div>
+    <h3>Color</h3>
+    <div id="grillaColor">
+        <div style="margin: 10px;">
+            <p>Koleston</p>
+            <img id="Koleston" src="https://images.vexels.com/media/users/3/234850/isolated/lists/2d4d8c7913689ea8d3ede7781a14ee5a-elementos-de-peluqueria-19.png"
+                width="100px" height="100px" alt="">
+        </div>
+        <div style="margin: 10px;">
+            <p>Nutrise</p>
+            <img id="Nutrise" src="https://images.vexels.com/media/users/3/234850/isolated/lists/2d4d8c7913689ea8d3ede7781a14ee5a-elementos-de-peluqueria-19.png"
+                width="100px" height="100px" alt="">
+        </div>
 
+    </div>
 
 
 
     <footer>
         <div class="footer">
             <p>© 2022 JA Peluquería</p>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
 </body>

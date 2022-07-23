@@ -3,22 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     margin: 10px;
     font-family: 'Montserrat', sans-serif;
 }
 
 nav{
+    margin: 10px;
     padding: 25px;
 }
 
-.banner{
-    background-image: url("./img/fondo.jpg");
-    background-color: aqua;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 20rem;
+section{
+    padding: 15px;
 }
 
 .titulo{
@@ -32,7 +29,7 @@ nav{
 }
 
 .menuSuperior li{
-    display: inline-block;  
+    display: inline-block;
 }
 .menuSuperior a{
     text-decoration: none;
@@ -51,13 +48,11 @@ nav{
 
 footer {
     bottom: 0;
-    position: fixed;
     width: 100%;
+    position: fixed;
 }
 
 .footer {
-    margin: auto;
-    width: 400px;
     text-align:center;
     color:black;
 }

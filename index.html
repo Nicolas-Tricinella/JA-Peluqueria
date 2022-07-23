@@ -3,104 +3,135 @@
 
 <head>
     <title>Servicios</title>
+    <link rel="stylesheet" href="grid.css">
     <link rel="stylesheet" href="estilos.css">
-    [href]="<!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    "
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
 </head>
 
-[href]="<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-"
 <body>
+    <div id="grilla1">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./quienessomos.html">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-    <nav class="banner">
-        <header class="menuSuperior">
-            <ul>
-                <li><a href="./index.html">Servicios</a></li>
-                <li><a href="./productos.html">Productos</a></li>
-                <li><a href="./quienessomos.html">Quienes somos</a></li>
-                <li><a href="./galeria.html">Galeria</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
-        
+        <header class="border">
+            <h1 class="titulo">Servicios</h1>
         </header>
-    </nav>
 
-    <h1 class="titulo">Servicios</h1>
-    <div class="contenido">
+        <section id="cortepeinado" class="border border-primary">
+            <h5>CORTE Y PEINADO</h5>
+            <ul>
+                <li>Corte: $2000</li>
+                <li>Brushing: $900/1400</li>
+                <li>Brushing Progresivo: $5300</li>
+                <li>Corte y secado: $2800</li>
+                <li>Corte caballero (Incl. lavado): $1800</li>
+                <li>Corte niño (Hasta 10 años): $1800</li>
+                <li>Barbería completa: $1500</li>
+                <li>Peinado semirecogido: desde $3500</li>
+                <li>Peinado recogido: desde $3000</li>
+                <li>Maquillaje: desde $2100</li>
+            </ul>
+        </section>
 
-        <h3>CORTE Y PEINADO</h3>
-        <ul>
-            <li>Corte: $2000</li>
-            <li>Brushing: $900/1400</li>
-            <li>Brushing Progresivo: $5300</li>
-            <li>Corte y secado: $2800</li>
-            <li>Corte caballero (Incl. lavado): $1800</li>
-            <li>Corte niño (Hasta 10 años): $1800</li>
-            <li>Barbería completa: $1500</li>
-            <li>Peinado semirecogido: desde $3500</li>
-            <li>Peinado recogido: desde $3000</li>
-            <li>Maquillaje: desde $2100</li>
-        </ul>
-        
-        
-        <h3>COLOR</h3>
-        <ul>
-            <li>Melena</li>
-            <li>Baño de Luz: $2200</li>
-            <li>Coloración Majirel/Wella: desde $3600</li>
-            <li>Coloración INOA: desde $4900</li>
-            <li>Shock de Keratina: $4300</li>
-            <li>Refejos con gorra: desde $4000</li>
-            <li>Refejos con papel: desde $6200</li>
-            <li>Balayage: desde $6800</li>
-            <li>Desgaste de puntas: desde $5500</li>
-            <li>Aplicación de color: desde $3000</li>
-        </ul>
-        
-    
-        <h3>MANOS Y PIES</h3>
-        <ul>
-            <li>Manos: $1200</li>
-            <li>Belleza de pies: $1500</li>
-            <li>Pedicuría: desde $1800</li>
-            <li>Cambio de esmalte: $800</li>
-            <li>Esmaltado con Gel Frio: $1900</li>
-            <li>Esmaltado semipermanente con Cabina: $2400</li>
-        </ul>
-        
-        <h3>DEPILACIÓN</h3>
-        <ul>
-            <li>Sistema Español</li>
-            <li>Pierna entera: $860</li>
-        </ul>
-    
-    
-        <h3>PILETA</h3>
-        <ul>
-            <li>Lavado común: $500</li>
-            <li>Lavado L’Oréal Professionnel: $980</li>
-            <li>Lavado Sebastian Professional: $1100</li>
-            <li>Lavado Kérastase: $1200</li>
-        </ul>
-    
-        <h3>BELLEZA Y SPA</h3>
-        <ul>
-            <li>Limpieza de Cutis: Consultar</li>
-            <li>Diseño de cejas: $1600</li>
-            <li>Permanente de pestañas: $2200</li>
-            <li>Extensión de pestañas</li>
-        </ul>
+        <section id="color" class="border border-success">
+            <h5>COLOR</h5>
+            <ul>
+                <li>Melena</li>
+                <li>Baño de Luz: $2200</li>
+                <li>Coloración Majirel/Wella: desde $3600</li>
+                <li>Coloración INOA: desde $4900</li>
+                <li>Shock de Keratina: $4300</li>
+                <li>Refejos con gorra: desde $4000</li>
+                <li>Refejos con papel: desde $6200</li>
+                <li>Balayage: desde $6800</li>
+                <li>Desgaste de puntas: desde $5500</li>
+                <li>Aplicación de color: desde $3000</li>
+            </ul>
+        </section>
+
+        <section id="manospies" class="border border-danger">
+            <h5>MANOS Y PIES</h5>
+            <ul>
+                <li>Manos: $1200</li>
+                <li>Belleza de pies: $1500</li>
+                <li>Pedicuría: desde $1800</li>
+                <li>Cambio de esmalte: $800</li>
+                <li>Esmaltado con Gel Frio: $1900</li>
+                <li>Esmaltado semipermanente con Cabina: $2400</li>
+            </ul>
+        </section>
+
+        <section id="depilacion" class="border border-warning">
+            <h5>DEPILACIÓN</h5>
+            <ul>
+                <li>Sistema Español</li>
+                <li>Pierna entera: $860</li>
+            </ul>
+        </section>
+
+        <section id="pileta" class="border border-info">
+            <h5>PILETA</h5>
+            <ul>
+                <li>Lavado común: $500</li>
+                <li>Lavado L'Oréal Professionnel: $980</li>
+                <li>Lavado Sebastian Professional: $1100</li>
+                <li>Lavado Kérastase: $1200</li>
+            </ul>
+        </section>
+
+        <section id="bellezaspa" class="border border-dark">
+            <h5>BELLEZA Y SPA</h5>
+            <ul>
+                <li>Limpieza de Cutis: Consultar</li>
+                <li>Diseño de cejas: $1600</li>
+                <li>Permanente de pestañas: $2200</li>
+                <li>Extensión de pestañas</li>
+            </ul>
+        </section>
+
     </div>
-    
-
-
-
 
     <footer>
         <div class="footer">
             <p>© 2022 JA Peluquería</p>
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
         </div>
     </footer>
 </body>
